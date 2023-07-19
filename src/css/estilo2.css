@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Street-fighter';
+    src: url('../Street-Fighter-Font/SSF4 ABUKET.ttf') format('truetype');
+}
+
+body {
+    font-family: "Street-fighter";
+    background-color: hsl(0, 0%, 0%);
+    color: #ffff;
+}
+
+body::before {
+    content: "";
+    background-image: url(../imagens/games-street-fighter-ii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header>img {
+    width: 35%;
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #e00404;
+    color: white;
+    font-family: 'Street-fighter';
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

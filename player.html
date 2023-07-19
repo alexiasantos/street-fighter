@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Projeto - Street Fighter</title>
+</head>
+
+<body>
+    <audio preload='metadata' autoplay loop>
+        <source src="src/audio/audio-theme.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+        <div class="voltar">
+            <a href="index.html" rel="prev"><img src="src/imagens/voltar.png" alt=""></a>
+        </div>
+        <div class="cabecalho">
+            <img class="logo" src="src/imagens/Street_Fighter_Logo.png" alt="Logo-street-fighter">
+        </div>
+        <div class="audio-configuracoes">
+            <img class="play" src="./src/imagens/play.png" alt="botao-volume">
+            <img class="stop" src="./src/imagens/stop.png" alt="botao-stop">
+        </div>
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ryu" data-name="Ryu" data-description="Ryu é um lutador japonês, personagem principal da série Street Fighter.Ryu é conhecido por sua busca incessante pela perfeição e pelo seu uso da técnica Hadouken">
+                    <img src="./src/imagens/card-ryu.jpg" alt="personagem-ryu">
+                </li>
+                <li class="personagem" id="chun-li" data-name="Chun Li" data-description="Chun Li é uma policial chinesa. Chun-Li é conhecida por seus chutes poderosos e rápidos.">
+                    <img src="./src/imagens/card-chun-li.jpg" alt="personagem-chun-li">
+                </li>
+                <li class="personagem" id="guile" data-name="Guile" data-description="Guile é um lutador americano e membro das Forças Armadas dos Estados Unidos. Guile é conhecido por sua técnica de ataque Sonic Boom.">
+                    <img src="./src/imagens/card-guile.jpg" alt="personagem-guile">
+                </li>
+                <li class="personagem" id="ken" data-name="Ken" data-description="Ken é mais arrogante que o amigo Ryu, mas é igualmente habilidoso em artes marciais. Ele é conhecido por seu uso da técnica Shoryuken. ">
+                    <img src="./src/imagens/card-ken.jpg" alt="personagem-ken">
+                </li>
+                <li class="personagem" id="sakura" data-name="Sakura" data-description="Sakura Kasugano iniciou seus estudos no Karatê Shotokan e assistindo as lutas de um jovem karateca que ela realmente passou a amar o Karatê e fazer dele a sua vida">
+                    <img src="./src/imagens/card-sakura.jpg" alt="personagem-sakura">
+                </li>
+                <li class="personagem" id="zangief" data-name="Zangief" data-description="Lutador russo conhecido por suas habilidades de luta livre. Zangief é conhecido por sua técnica de ataque Spinning Piledriver.">
+                    <img src="./src/imagens/card-zangief.jpg" alt="personagem-zangief">
+                </li>
+            </ul>
+
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ryu.gif" alt="personagem-ryu">
+            <div class="informacoes">
+                <h2 class="nome-personagem" id="nome-personagem">Ryu</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ryu é o personagem principal da série Street Fighter. Ryu é conhecido por sua busca incessante pela perfeição e pelo seu uso da técnica Hadouken</p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
