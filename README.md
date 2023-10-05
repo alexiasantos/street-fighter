@@ -10,6 +10,10 @@ Ryu, Chun Li, Guile, Ken, Zangief e Sakura
 
 [<img src="./src/imagens/Animação.gif" alt="Animação do jogo personagens">]
 
+## Como executar o projeto
+
+Basta apenas ter um navegador instalado, para servir como interpretador do JavaScript e abrir o index.html com ele.
+
 ## Tecnologias utilizadas
 
 - HTML
